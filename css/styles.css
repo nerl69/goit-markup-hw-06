@@ -494,7 +494,10 @@ img {
 
 .sectionthree-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 72px 24px;
 }
 
 .titlethree {

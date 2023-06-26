@@ -67,7 +67,7 @@
 
 /* section three */
 
-@media screen and (min-width: 1158px) {
+/* @media screen and (min-width: 1158px) {
   .sectionthree {
     padding: 120px 0;
   }
@@ -90,6 +90,16 @@
     width: calc((100% - 72px) / 4);
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .sectionthree-list-list {
+    width: calc((100% - 72px) / 2);
+  }
+}
+@media screen and (min-width: 150px) and (max-width: 767px) {
+  .sectionthree-list-list {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .sectionthree .container {
@@ -110,4 +120,6 @@
   .sectionthree .container {
     max-width: 428px;
   }
-}
+} */
+
+/* section four */

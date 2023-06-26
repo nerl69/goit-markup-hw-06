@@ -27,6 +27,7 @@ p {
 
 .container-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -256,6 +257,7 @@ li {
 .footer-list {
   display: flex;
   gap: 16px;
+  background-color: #2e2f42;
 }
 
 .footer-list-list {

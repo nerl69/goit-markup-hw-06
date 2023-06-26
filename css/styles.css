@@ -381,13 +381,7 @@ li {
 }
 
 .container-sectionone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
+  display: none;
 }
 
 .visually-hidden {
@@ -404,10 +398,9 @@ li {
 }
 
 .sectionone-list {
-  gap: 24px;
-}
-.sectionone-list-list {
-  width: calc((100% - 72px) / 4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 24px;
 }
 
 .paragraf {
@@ -415,14 +408,16 @@ li {
   letter-spacing: 0.02em;
   font-size: 16px;
   color: #434455;
+  display: block;
 }
 
 .zagolovok {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto 8px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 /*-----------Section two-----------*/

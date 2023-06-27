@@ -123,3 +123,156 @@
 } */
 
 /* section four */
+
+/* @media screen and (min-width: 768px) {
+  .sectionfour .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sectionfour-list {
+    gap: 72px 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sectionfour-list-list {
+    width: calc((100% - 48px) / 3);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .sectionfour {
+    padding: 120px 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .sectionfour .container {
+    max-width: 1158px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .sectionfour-list {
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .sectionfour-list-list {
+    width: calc((100% - 120px) / 6);
+  }
+} */
+
+/* footer */
+
+/* @media screen and (min-width: 768px) {
+  .footer .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    flex-direction: row;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 108px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    align-items: normal;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-container {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer .container {
+    max-width: 1158px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    margin-right: 120px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .socialmedia-container {
+    margin-right: 20px;
+  }
+} */
+
+/* hero */
+
+/* @media screen and (min-width: 768px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .hero-section .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero-section {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    max-width: 1440px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero-section .container {
+    max-width: 1158px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
+} */
+
+/* header */

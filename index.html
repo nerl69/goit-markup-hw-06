@@ -29,6 +29,27 @@
           <a href="./index.html" class="header-logo link"
             >Web<span class="header-span">Studio</span></a
           >
+
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+
           <ul class="header-menu list">
             <li>
               <a class="header-menu-link link current" href="./index.html"
@@ -43,8 +64,9 @@
             <li><a class="header-menu-link link" href="">Contacts</a></li>
           </ul>
         </nav>
+
         <address class="header-address">
-          <ul class="list">
+          <ul class="header-address-list list">
             <li class="header-address-item">
               <a
                 class="header-address-link link"
@@ -60,25 +82,6 @@
           </ul>
         </address>
       </div>
-      <button
-        class="menu-toggle js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg
-          width="24"
-          height="24"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
 
       <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
@@ -108,44 +111,75 @@
           </li>
           <li><a class="mobile-menu-link link" href="">Contacts</a></li>
         </ul>
-
-        <div class="mobile-address-soc-container">
-          <address class="mobile-menu-address">
-            <ul class="mobile-menu-adr-list list">
-              <li class="mobile-menu-adr-item">
+        <div>
+          <address class="mob-menu-address">
+            <ul class="mob-menu-address-list list">
+              <li>
                 <a
+                  class="mob-menu-address-number link"
                   href="tel:+110001111111"
-                  class="mobile-address-link current-address-link link"
+                  target="_blank"
                   >+11 (000) 111-11-11</a
                 >
               </li>
-              <li class="mobile-menu-adr-item">
+              <li>
                 <a
+                  class="mob-menu-address-email link"
                   href="mailto:info@devstudio.com"
-                  class="mobile-address-link link"
+                  target="_blank"
                   >info@devstudio.com</a
                 >
               </li>
             </ul>
           </address>
+          <ul class="mob-menu-soc-list list">
+            <li class="item">
+              <a href="" class="link">
+                <svg class="icon social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <svg class="icon social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <svg class="icon social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <svg class="icon social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
     <main>
       <!--section hero-->
 
-      <!-- <section class="hero-section">
+      <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <!--section one-->
 
-      <!-- <section class="sectionone">
+      <section class="sectionone">
         <div class="container">
           <h2 class="visually-hidden">hello</h2>
           <ul class="sectionone-list list">
@@ -199,11 +233,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--section two-->
 
-      <!-- <section class="sectiontwo">
+      <section class="sectiontwo">
         <div class="container">
           <h2 class="title">What are we doing</h2>
           <ul class="sectiontwo-list list">
@@ -233,11 +267,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--section three-->
 
-      <!-- <section class="sectionthree">
+      <section class="sectionthree">
         <div class="container">
           <h2 class="titletwo">Our Team</h2>
           <ul class="sectionthree-list list">
@@ -391,11 +425,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--section four-->
 
-      <!-- <section class="sectionfour">
+      <section class="sectionfour">
         <div class="container">
           <h2 class="title-customers">Customers</h2>
           <ul class="sectionfour-list list">
@@ -443,12 +477,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!--footer-->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer-container">
           <a href="./index.html" class="footer-logo link"
@@ -510,11 +544,11 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!--modal-->
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-button" data-modal-close>
           <svg class="icon-modal" width="8" height="8">
@@ -600,7 +634,7 @@
           <button class="modal-button-send">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"

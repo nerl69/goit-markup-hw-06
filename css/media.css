@@ -306,3 +306,22 @@
     gap: 12px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .header .container {
+    max-width: 768px;
+    padding-right: 600px;
+  }
+}
+
+@media screen and (min-width: 150px) {
+  .header .container {
+    max-width: 310px;
+  }
+}
+
+@media screen and (min-width: 1157px) {
+  .header .container {
+    max-width: 1157px;
+  }
+}

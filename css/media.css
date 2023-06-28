@@ -324,4 +324,7 @@
   .header .container {
     max-width: 1157px;
   }
+  .header-navigation {
+    margin-right: 200px;
+  }
 }

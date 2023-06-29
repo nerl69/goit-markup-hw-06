@@ -225,7 +225,14 @@
 
 @media screen and (min-width: 1158px) {
   .socialmedia-container {
-    margin-right: 20px;
+    margin-left: -150px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .socialmedia-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 

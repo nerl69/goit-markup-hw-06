@@ -278,10 +278,6 @@
 /* header */
 
 @media screen and (min-width: 768px) {
-  .header-menu {
-    display: flex;
-  }
-
   .header .list {
     display: flex;
   }
@@ -326,5 +322,25 @@
   }
   .header-navigation {
     margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition: color var(--transition);
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 767px) {
+  .container-header {
+    padding: 15px 15px;
   }
 }

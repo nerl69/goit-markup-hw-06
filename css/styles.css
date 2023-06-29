@@ -246,7 +246,7 @@ li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   gap: 40px;
   list-style-type: none;
@@ -561,6 +561,7 @@ li {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin-left: 50px;
 }
 
 .subscribe-paragraf {
@@ -570,6 +571,7 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-left: 150px;
 }
 
 .subscribe-form {
@@ -593,6 +595,7 @@ li {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
+  margin-left: 50px;
 }
 
 .input-email::placeholder {
@@ -893,7 +896,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  max-width: 408px;
+  width: calc(100%-36px);
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),

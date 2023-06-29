@@ -357,7 +357,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -365,6 +364,7 @@ li {
   border: none;
   border-radius: 50%;
   outline: none;
+  margin-left: 100px;
 }
 
 @media (min-width: 768px) {

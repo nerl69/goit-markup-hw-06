@@ -41,7 +41,7 @@ p {
 } */
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -259,6 +259,7 @@ li {
   font-style: normal;
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .header-menu:hover,
@@ -753,6 +754,8 @@ h6 {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .sectionthree-list {

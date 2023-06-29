@@ -350,3 +350,9 @@
     padding: 15px 15px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .header-navigation {
+    margin-right: 70px;
+  }
+}

@@ -728,6 +728,7 @@ li {
 }
 
 .sectionthree-list-list {
+  flex-basis: auto;
   background-color: #ffffff;
   max-width: 264px;
   border-radius: 0px 0px 4px 4px;

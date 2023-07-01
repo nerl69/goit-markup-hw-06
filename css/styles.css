@@ -313,6 +313,7 @@ li {
 @media screen and (min-width: 428px) and (max-width: 767px) {
   .mob-menu-address-number {
     font-size: 36px;
+    color: #4d5ae5;
   }
 }
 
@@ -458,6 +459,11 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.mobile-menu-link:hover,
+.mobile-menu-link:focus {
+  color: #4d5ae5;
 }
 
 /*-----------Footer-----------*/
